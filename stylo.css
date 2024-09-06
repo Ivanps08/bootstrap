@@ -1,0 +1,63 @@
+#toc{
+    display: inline-block;
+}
+
+.li1{
+    display: inline-block;
+    padding-left: 100px;
+    margin-left: 10px;
+}
+
+.barra{
+    background-color: brown;
+}
+
+.barra1{
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-image: url() ;
+}
+
+.nosotros{
+    text-align: center;
+}
+
+.nosotrosf{
+    background-image: url(/nosotros.png);
+    width:100%;
+    right: 10%;
+    color: white;
+}
+
+.productosf{
+    background-color: rgb(85, 203, 105);
+}
+
+.formularioc{
+    text-align: center;
+
+}
+
+.iniciof{
+    background-image: url(../inicio.png);
+    padding: 10%;
+    color: white;
+}
+
+.logof{
+    text-align: center;
+}
+
+.navbar{
+    background-color: rgb(51, 56, 56);
+}
+
+.modal-body{
+    background-color: rgb(51, 56, 56);
+}
+
+.navbar-brand{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

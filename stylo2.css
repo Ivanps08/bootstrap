@@ -1,0 +1,169 @@
+/* Selector universal */
+/* Con este selector se seleccionan todos los elementos que
+contendrá la página */
+*{
+    /* definimos propiedad de relleno del elemento */
+    padding: 0;
+    margin:0;
+    color:blue;
+    text-align: center;
+    font-size: small;
+}
+/* Selector de etiqueta: selecciona todos los elementos que 
+contengan la etiqueta HTML */
+body{
+    background-image: url("/nosotros.png");
+    background-repeat: repeat-x;
+    /*Especificar tamaño de imagen*/
+    background-position: right top;
+    background-size: 90%;
+    max-width: 400%;
+    max-height: 60%;
+
+}
+
+p{
+    color:brown;
+    /*estilo de fuente*/
+    font-style: italic;
+    /*familia tipo grafica*/
+    font-family: 'Courier New', Courier, monospace;
+    /* Tamaño de fuente */
+    font-size: medium;
+    text-align: center;
+    background: #45b39d;
+}
+h1{
+    color:rgb(178, 178, 8);
+    font-size:x-large;
+    text-align:left;
+    background: #3498db;
+}
+h2{
+    color:rgb(178, 8, 8);
+    font-size:x-small;
+    text-align:center;
+}
+h3{
+    color:rgb(31, 8, 178);
+    /* em: es una unidad relativa de la fuente según el tamaño actual */
+    font-size:1.5em;
+    text-align:center;
+}
+/* Selector de clase: selecciona elementos según atributos de 
+una clase específica */
+/* para seleccionar los elementos colocamos el cáracter (.) seguido del 
+nombre de la clase  */
+.center{
+    text-align: center;
+    font-size: medium;
+    color:gold
+}
+/* También podemos colocar clases a elementos específicos */
+p.center{
+    text-align: left;
+    font-size: medium;
+    color:rgb(0, 255, 17)
+}
+.texto-centrado
+{
+    text-align: center;
+    font-size: medium;
+    color:rgb(0, 255, 17)
+}
+.texto_rojo
+{
+    color:red;
+}
+.letra_tamano_12
+{
+    font-size: 12px;
+}
+.texto_verde
+{
+    color:rgb(43, 255, 0);
+}
+.letra_tamano_16
+{
+    font-size: 16px;
+}
+.texto_dorado
+{
+    color:gold;
+}
+.letra_tamano_14
+{
+    font-size: 14px;
+}
+/* Selector de ID: para seleccionar un elemento específico */
+#link_rojo{
+    color:red;
+    font-size:smaller;
+}
+#color_amarillo{
+    color:yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    top:600px;
+}
+/* ul{
+    list-style-type: none;
+    margin: 0;
+    relleno entre el borde y el elemento 
+    padding: 0;
+    width: 200px;
+    background-color: rgb(31, 212, 61);
+}
+
+li a{
+    color: aquamarine;
+    padding: 8px 16px;
+
+}
+cambiar el color del link 
+    background-color: brown;
+    color: antiquewhite;
+} */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* propiedad para determinar cuanto el contenido sobre pasa los limites del contenedor */
+    overflow: hidden;
+    background-color: chartreuse;
+}
+li{
+    /* color la posicion del elemento flotante */
+    float: left;
+    
+}   
+li a{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 8px 16px;
+
+}
+
+li a:hover{
+    background-color: brown;
+    color: white;
+}
+input[type-text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+}
+input[type-text], select{
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+}
